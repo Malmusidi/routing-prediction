@@ -1,10 +1,8 @@
 # Notebooks
 
-## Quick Start
+**`03_apply_pretrained_models.ipynb`**
 
-**Most users only need `03_apply_pretrained_models.ipynb`**
-
-This notebook loads the pre-trained models and generates predictions for your O-D pairs. You only need to provide origin and destination coordinates.
+This notebook loads the pre-trained models and generates predictions for O-D pairs. The only need is to provide origin and destination coordinates.
 
 ## All Notebooks
 
