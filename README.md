@@ -2,12 +2,7 @@
 
 A machine learning framework to predict when Google Maps, ArcGIS, and OpenRouteService will produce divergent pedestrian travel time and distance estimates.
 
-## Overview
 
-Web-based routing services can produce substantially different estimates for identical pedestrian routes. This framework enables researchers to **anticipate** where disagreements are likely to occur, allowing them to:
-
-1. **Selectively validate** routes predicted to have high disagreement across multiple platforms
-2. **Quantify uncertainty** in accessibility analyses by reporting the proportion of high-disagreement routes
 
 The framework uses Random Forest models trained on 10,000 residential-to-bus-stop routes in Athens-Clarke County, Georgia.
 
