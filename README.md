@@ -1,6 +1,6 @@
 # Predicting Pedestrian Routing Disagreements Among Web-Based Platforms
 
-A machine learning framework to predict when Google Maps, ArcGIS, and OpenRouteService will produce divergent pedestrian travel time and distance estimates.
+A machine learning framework to predict where Google Maps, ArcGIS, and OpenRouteService will produce divergent pedestrian travel time and distance estimates.
 
 
 ## Feature Definitions
@@ -16,15 +16,14 @@ A machine learning framework to predict when Google Maps, ArcGIS, and OpenRouteS
 
 ## Notebooks
 
-- `01_generate_predictors.ipynb` - Generate the 6 features for your O-D pairs
-- `02_train_models.ipynb` - Replicate model training on your own data
-- `03_apply_pretrained_models.ipynb` - Apply pre-trained models to new data
+- `01_generate_predictors.ipynb` - (demo for generating the 6 features for O-D pairs)
+- `02_train_models.ipynb` - (demo for replicating model training with new data)
+  
+- `03_apply_pretrained_models.ipynb` - (using the actual pre-trained models, the only requirement is the O-D coordinate file)
 
-## Requirements
 
-```bash
-pip install scikit-learn pandas numpy geopandas osmnx geopy earthengine-api census pygris joblib
-```
+
+
 
 ## Citation
 
@@ -38,6 +37,4 @@ pip install scikit-learn pandas numpy geopandas osmnx geopy earthengine-api cens
 }
 ```
 
-## License
 
-MIT License
