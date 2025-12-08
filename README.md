@@ -2,30 +2,6 @@
 
 A machine learning framework to predict when Google Maps, ArcGIS, and OpenRouteService will produce divergent pedestrian travel time and distance estimates.
 
-## Quick Start
-
-```python
-import joblib
-import pandas as pd
-
-# Load pre-trained models
-distance_model = joblib.load('models/distance_model.joblib')
-time_model = joblib.load('models/time_model.joblib')
-
-# Prepare your features (must be in this exact order)
-features = df[[
-    'Straight_Line_Distance_m',
-    'Origin_Road_Length_Density_m_km2',
-    'Dest_Intersection_Density_n_km2',
-    'Slope_Pct',
-    'Elevation_Difference_m',
-    'Population'
-]]
-
-# Predict disagreement (1 = platforms will likely disagree)
-distance_disagreement = distance_model.predict(features)
-time_disagreement = time_model.predict(features)
-```
 
 ## Feature Definitions
 
