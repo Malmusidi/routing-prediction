@@ -14,6 +14,7 @@ A machine learning framework to predict where Google Maps, ArcGIS, and OpenRoute
 | Elevation_Difference_m | Elevation change between O-D | meters | SRTM DEM |
 | Population | Census block group population at origin | count | US Census |
 
+
 ## Notebooks
 
 - `01_generate_predictors.ipynb` - (demo for generating the 6 features for O-D pairs)
