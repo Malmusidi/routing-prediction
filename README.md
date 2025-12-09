@@ -25,16 +25,6 @@ A machine learning framework to predict where Google Maps, ArcGIS, and OpenRoute
 
 
 
-## Citation
 
-```bibtex
-@article{almusidi2025routing,
-  title={Predicting Pedestrian Routing Disagreements Among Web-Based Platforms: 
-         A Machine Learning Framework for Accessibility Research},
-  author={Almusidi, M.},
-  journal={TBD},
-  year={2025}
-}
-```
 
 
